@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.student.cardboard.MainActivity">
+
+    <com.google.vr.sdk.widgets.pano.VrPanoramaView
+        android:id="@+id/vr_Panorama"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    </com.google.vr.sdk.widgets.pano.VrPanoramaView>
+
+    <Button
+        android:id="@+id/btnVid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Video" />
+
+</LinearLayout>
